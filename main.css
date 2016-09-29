@@ -25,3 +25,16 @@ li{
 .bottom{
   border: 2px solid purple;
 }
+
+/*.item{
+  float: left;
+}
+*/
+
+.details{
+  border: 1px solid black;
+}
+
+.heading{
+  border: 1px solid green;
+}
