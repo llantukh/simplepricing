@@ -1,0 +1,27 @@
+li{
+  list-style: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.pricing{
+  border: 1px solid black;
+}
+
+.per-month{
+  border: 1px solid red;
+}
+
+.package{
+  border: 1px solid black;
+}
+
+.button{
+  border: 1px solid orange;
+}
+
+.bottom{
+  border: 2px solid purple;
+}
