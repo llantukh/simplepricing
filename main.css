@@ -28,56 +28,64 @@ div#background{
   position: relative;
 }
 
-h2{
+.motto{
   position: absolute;
+  top: 0px;
 }
 
-h2 p{
-  color: blue;
+.motto p{
+  color: white;
 }
 
 /* middle section w/ three boxes */
 
 .content{
   text-align: center;
+  width: 100%;
+  margin: auto;
 }
 
 .pricing{
   border: 1px solid black;
+  overflow: auto;
+  width: 60%;
   margin: auto;
 }
 
 .item{
   float: left;
   margin: 10px;
-  border: lightgrey;
+  border: 1px solid lightgrey;
 }
 
 .first-month{
-  background: green;
+  background: #539054;
   color: white;
 }
 
 .second-month{
-  background: blue;
+  background: #2E4A83;
   color: white;
 }
 
 .third-month{
-  background: black;
+  background: #111111;
   color: white;
 }
 
 .package{
   border-bottom: 1px solid grey;
-  background: lightgrey;
+  background: #F7F7F7;
 }
 
 .button{
   border: 1px solid grey;
   font-weight: bold;
-  border-radius: 10px;
-  margin-right: 0px;
+  border-radius: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 3px;
+  padding-bottom: 4px;
 }
 
 .bottom{
@@ -88,6 +96,14 @@ h2 p{
 
 .container{
   clear: both;
+  text-align: center;
+}
+
+.more-content{
+  border: 1px solid black;
+  width: 71%;
+  overflow: auto;
+  margin: auto;
 }
 
 .details{
@@ -107,9 +123,15 @@ h2 p{
   clear: both;
   background: black;
   margin: 0px;
+  padding: 10px;
+  text-align: center;
 }
 
 .convince{
   color: white;
-  text-decoration-style: solid;
+}
+
+.fine-print{
+  color: grey;
+
 }
