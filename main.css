@@ -35,6 +35,8 @@ div#background{
 
 .motto p{
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 }
 
 /* middle section w/ three boxes */
@@ -48,7 +50,7 @@ div#background{
 .pricing{
   border: 1px solid black;
   overflow: auto;
-  width: 60%;
+  width: 75%;
   margin: auto;
 }
 
@@ -56,6 +58,17 @@ div#background{
   float: left;
   margin: 10px;
   border: 1px solid lightgrey;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  width: 250px;
+}
+
+.type{
+  height: 180px;
+}
+
+.type-price{
+  font-size: 100px;
 }
 
 .first-month{
@@ -74,22 +87,20 @@ div#background{
 }
 
 .package{
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
   background: #F7F7F7;
+  padding: 10px;
+  font-size: 10px;
 }
 
 .button{
-  border: 1px solid grey;
+  border: 1px solid lightgrey;
   font-weight: bold;
   border-radius: 15px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 80px;
+  margin-left: 80px;
   padding-top: 3px;
   padding-bottom: 4px;
-}
-
-.bottom{
-  border: 1px solid grey;
 }
 
 /*bottom section w/ four boxes*/
@@ -111,6 +122,8 @@ div#background{
   margin: 10px;
   float: left;
   border: 1px solid black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 }
 
 .heading{
